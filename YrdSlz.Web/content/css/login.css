@@ -1,0 +1,36 @@
+﻿.logon-container {
+    padding-top: 20px;
+}
+
+.logon {
+    border: 1px solid #0f0f0f;
+    border-radius: 5px;
+    background: #ffffff;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 7px 7px 5px 0 rgba(0,0,0,0.5);
+}
+
+.logon img {
+    width:100%;
+    height:500px;
+    display:block; 
+}
+
+#logon-form {
+    position: absolute;
+    top: 25%;
+    left: 55%;
+}
+
+.logon-well {
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+}
+
+.btn-logon{
+    font-weight: bold;
+    background-color: #3573B9
+}

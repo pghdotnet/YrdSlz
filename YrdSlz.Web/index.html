@@ -1,0 +1,38 @@
+﻿<!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>Welcome to YrdSlz</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link href="content/css/bootstrap.css" rel="stylesheet" />
+    <link href="content/css/login.css" rel="stylesheet" />
+</head>
+<body ng-app="YrdSlzApp">
+    <!-- Add your site or application content here -->
+    <div class="container">
+        <div ui-view></div>
+    </div>
+
+    <!-- build:js(.) scripts/oldieshim.js -->
+    <!-- endbuild -->
+    <!-- build:js(.) scripts/vendor.js -->
+    <script src="scripts/angular.js"></script>
+    <script src="scripts/jquery-1.9.0.js"></script>
+    <script src="scripts/angular-cookies.js"></script>
+    <script src="scripts/angular-sanitize.js"></script>
+    <script src="scripts/angular-animate.js"></script>
+    <script src="scripts/angular-touch.js"></script>
+    <script src="scripts/angular-route.js"></script>
+    <script src="scripts/angular-ui-router.js"></script>
+    <!-- endbuild -->
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="app/app.js"></script>
+    <script src="app/modules/modules.js"></script>
+    <script src="app/config/routeConfig.js"></script>
+    <script src="app/infrastructure/urlService.js"></script>
+    <script src="app/login/loginService.js"></script>
+    <script src="app/login/loginController.js"></script>
+    <!-- endbuild -->
+</body>
+</html>

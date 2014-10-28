@@ -1,0 +1,10 @@
+c:\users\josh\documents\visual studio 2013\Projects\YrdSlz\YrdSlz\bin\YrdSlz.dll.config
+c:\users\josh\documents\visual studio 2013\Projects\YrdSlz\YrdSlz\bin\YrdSlz.dll
+c:\users\josh\documents\visual studio 2013\Projects\YrdSlz\YrdSlz\bin\YrdSlz.pdb
+c:\users\josh\documents\visual studio 2013\Projects\YrdSlz\YrdSlz\obj\Debug\YrdSlz.dll
+c:\users\josh\documents\visual studio 2013\Projects\YrdSlz\YrdSlz\obj\Debug\YrdSlz.pdb
+C:\Projects\YrdSlz\YrdSlz.Web\bin\YrdSlz.dll.config
+C:\Projects\YrdSlz\YrdSlz.Web\bin\YrdSlz.dll
+C:\Projects\YrdSlz\YrdSlz.Web\bin\YrdSlz.pdb
+C:\Projects\YrdSlz\YrdSlz.Web\obj\Debug\YrdSlz.dll
+C:\Projects\YrdSlz\YrdSlz.Web\obj\Debug\YrdSlz.pdb
