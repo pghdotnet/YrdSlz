@@ -5,7 +5,7 @@
 services.factory('UrlService', ['$interpolate', function ($interpolate) {
     return {
         getUrlForToken: function () {
-            return 'token';
+            return 'http://yardsalez.cloudapp.net/token';
         }
     };
 }]);

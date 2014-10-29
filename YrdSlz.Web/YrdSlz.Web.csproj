@@ -58,8 +58,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\app.js" />
+    <Content Include="app\config\httpProviderConfig.js" />
     <Content Include="app\config\routeConfig.js" />
     <Content Include="app\infrastructure\urlService.js" />
+    <Content Include="app\login\authenticationTokenService.js" />
+    <Content Include="app\login\authInterceptorService.js" />
     <Content Include="app\login\login.html" />
     <Content Include="app\login\loginController.js" />
     <Content Include="app\login\loginService.js" />
@@ -82,6 +85,8 @@
     <Content Include="scripts\angular-csp.css" />
     <Content Include="scripts\angular-loader.js" />
     <Content Include="scripts\angular-loader.min.js" />
+    <Content Include="scripts\angular-local-storage.js" />
+    <Content Include="scripts\angular-local-storage.min.js" />
     <Content Include="scripts\angular-messages.js" />
     <Content Include="scripts\angular-messages.min.js" />
     <Content Include="scripts\angular-mocks.js" />

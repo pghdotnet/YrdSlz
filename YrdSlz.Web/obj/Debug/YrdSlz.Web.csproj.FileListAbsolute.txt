@@ -8,3 +8,4 @@ C:\Projects\YrdSlz\YrdSlz.Web\bin\YrdSlz.dll
 C:\Projects\YrdSlz\YrdSlz.Web\bin\YrdSlz.pdb
 C:\Projects\YrdSlz\YrdSlz.Web\obj\Debug\YrdSlz.dll
 C:\Projects\YrdSlz\YrdSlz.Web\obj\Debug\YrdSlz.pdb
+C:\Projects\YrdSlz\YrdSlz.Web\obj\Debug\YrdSlz.Web.csprojResolveAssemblyReference.cache

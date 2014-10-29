@@ -3,25 +3,21 @@
 
 "use strict";
 
-controllers.controller('LoginController', ['$location', 'LoginService',
-    function ($location, loginService) {
-        var vm = this;
-        vm.loginError = loginService.getErrorMessage();
+controllers.controller('LoginController', ['$scope', '$location', 'LoginService',
+    function ($scope, $location, loginService) {
+        $scope.loginError = loginService.getErrorMessage();
 
         function loginSuccess() {
-            vm.loginError = '';
+            $scope.loginError = '';
             $location.path("/events");
         };
 
         function loginFailure() {
-            vm.loginError = loginService.getErrorMessage();
+            $scope.loginError = loginService.getErrorMessage();
         };
 
-        vm.submit = function () {
-            // Before submitting, check input fields and make sure that any auto-fill values were applied to the scope bindings.
-            //$('input').checkAndTriggerAutoFillEvent();
-
-            vm.loginError = '';
-            loginService.login(vm.username, vm.password).then(loginSuccess, loginFailure);
+        $scope.submit = function () {
+            $scope.loginError = '';
+            loginService.login($scope.username, $scope.password).then(loginSuccess, loginFailure);
         };
     }]);
