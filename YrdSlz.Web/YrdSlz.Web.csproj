@@ -60,6 +60,11 @@
     <Content Include="app\app.js" />
     <Content Include="app\config\httpProviderConfig.js" />
     <Content Include="app\config\routeConfig.js" />
+    <Content Include="app\events\upcoming.html" />
+    <Content Include="app\events\events.html" />
+    <Content Include="app\events\eventsController.js" />
+    <Content Include="app\home\homeController.js" />
+    <Content Include="app\home\home.html" />
     <Content Include="app\infrastructure\urlService.js" />
     <Content Include="app\login\authenticationTokenService.js" />
     <Content Include="app\login\authInterceptorService.js" />
@@ -836,6 +841,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Properties\PublishProfiles\YrdSlz.pubxml" />
     <None Include="scripts\jquery-1.9.0.intellisense.js" />
     <Content Include="scripts\jquery-1.9.0.js" />
     <Content Include="scripts\jquery-1.9.0.min.js" />

@@ -1,0 +1,17 @@
+﻿<div ng-controller="HomeController" class="container">
+    <div>
+        Name {{yardSale.name}}
+    </div>
+    <div>
+        Date {{yardSale.date}}
+    </div>
+    <div>
+        Location {{yardSale.location}}
+    </div>
+    <div>
+        Items:
+        <ul ng-repeat="item in yardSale.items">
+            <li>{{item.name}}</li>
+        </ul>
+    </div>
+</div>

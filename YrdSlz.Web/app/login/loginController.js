@@ -9,7 +9,7 @@ controllers.controller('LoginController', ['$scope', '$location', 'LoginService'
 
         function loginSuccess() {
             $scope.loginError = '';
-            $location.path("/events");
+            $location.path("/home");
         };
 
         function loginFailure() {

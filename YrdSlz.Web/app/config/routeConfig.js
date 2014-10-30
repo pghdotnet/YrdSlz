@@ -2,13 +2,19 @@
 
 var app = angular.module('YrdSlzApp');
 
-app.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
+app.config(['$stateProvider', '$urlRouterProvider',
+    function ($stateProvider, $urlRouterProvider) {
 
-    $urlRouterProvider.otherwise('/login');
+        $urlRouterProvider.otherwise('/login');
 
-    $stateProvider.state('login', {
-        url: '/login',
-        templateUrl: 'app/login/login.html'
-    });
+        $stateProvider.state('login', {
+            url: '/login',
+            templateUrl: 'app/login/login.html'
+        });
 
-}]);
+        $stateProvider.state('home', {
+            url: '/home',
+            templateUrl: 'app/home/home.html'
+        });
+
+    }]);

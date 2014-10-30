@@ -1,0 +1,17 @@
+﻿<div ng-controller="UpcomingController">
+    <div>
+        Name {{YardSaleName}}
+    </div>
+    <div>
+        Date {{YardSaleDate}}
+    </div>
+    <div>
+        Location {{Location}}
+    </div>
+    <div>
+        Items:
+        <ul ng-repeat="item in items">
+            <li>{{item.name}}</li>
+        </ul>
+    </div>
+</div>

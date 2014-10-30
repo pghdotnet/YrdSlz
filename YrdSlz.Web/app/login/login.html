@@ -11,9 +11,9 @@
                        placeholder="{{'Password'}}" autofocus="autofocus" required />
             </div>
             <div class="text-right">
-                <button id="logon" class="btn btn-logon btn-md" type="submit">Logon</button>
+                <button id="logon" class="btn btn-logon btn-md" type="submit" ng-disabled="logonForm.$invalid">Logon</button>
             </div>
-            <div id="error" style="color:red" ng-disabled="logonForm.$invalid">{{loginError}}</div>
+            <div id="error" style="color:red">{{loginError}}</div>
         </form>
     </div>
 </div>
